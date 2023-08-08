@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200&family=Noto+Sans:wght@100&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200&family=Noto+Sans:wght@100&display=swap"
+        rel="stylesheet">
     <title>WordleClone</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Libre+Franklin:wght@100;200;700&family=Noto+Sans:wght@100&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="STYLE.CSS">
-<script src="https://kit.fontawesome.com/1689503619.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Libre+Franklin:wght@100;200;700&family=Noto+Sans:wght@100&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styyle.css">
+    <script src="https://kit.fontawesome.com/1689503619.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     
-    <header>
-        <h1>Wordle</h1>
-    </header>
+    <h1>Wordle</h1>
+
     <div class="game">
+        
         <div class="box">
+            
             <div class="row">
                 <div class="char"></div>
                 <div class="char"></div>
@@ -62,56 +70,61 @@
                 <div class="char"></div>
                 <div class="char"></div>
             </div>
-            <div><p class="message">hello</p></div>
-        </div>
+            <p class="message">hello</p>
         
-        <div class="keyboard">
-            <div class="keypad">
-                <table>
-                    
-                    <tr>
-                        <td><button id="Q">Q</button></td>
-                        <td><button id="W">W</button></td>
-                        <td><button id="E">E</button></td>
-                        <td><button id="R">R</button></td>
-                        <td><button id="T">T</button></td>
-                        <td><button id="Y">Y</button></td>
-                        <td><button id="U">U</button></td>
-                        <td><button id="I">I</button></td>
-                        <td><button id="O">O</button></td>
-                        <td><button id="P">P</button></td>
-                    </tr>
-                    
-                    <tr>
-                        <td><button id="A">A</button></td>
-                        <td><button id="S">S</button></td>
-                        <td><button id="D">D</button></td>
-                        <td><button id="F">F</button></td>
-                        <td><button id="G">G</button></td>
-                        <td><button id="H">H</button></td>
-                        <td><button id="J">J</button></td>
-                        <td><button id="K">K</button></td>
-                    <td><button id="L">L</button></td>
-                    <td rowspan="2"><button class="bkspc"><i class="fas fa-backspace" >.</i></button></td>
-                </tr>
-                
-                <tr>
-                    <td><button id="Z">Z</button></td>
-                    <td><button id="X">X</button></td>
-                    <td><button id="C">C</button></td>
-                    <td><button id="V">V</button></td>
-                    <td><button id="B">B</button></td>
-                    <td><button id="N">N</button></td>
-                    <td><button id="M">M</button></td>
-                    <td colspan="2"><button class="Enter">Enter</button></td>
-                </tr>
-            </table>
-            <div><input type="button" id="btn" value="Restart Game"></div>
             
         </div>
+
+        <div class="keyboard">
+            <div class="keypad">
+
+                <div class="keys1">
+                    <button id="Q">Q</button>
+                    <button id="W">W</button>
+                    <button id="E">E</button>
+                    <button id="R">R</button>
+                    <button id="T">T</button>
+                    <button id="Y">Y</button>
+                    <button id="U">U</button>
+                    <button id="I">I</button>
+                    <button id="O">O</button>
+                    <button id="P">P</button>
+                </div>
+
+
+                <div class="keys2">
+                    <button id="A">A</button>
+                    <button id="S">S</button>
+                    <button id="D">D</button>
+                    <button id="F">F</button>
+                    <button id="G">G</button>
+                    <button id="H">H</button>
+                    <button id="J">J</button>
+                    <button id="K">K</button>
+                    <button id="L">L</button>
+                </div>
+
+
+                <div class="keys3">
+                    <button class="Enter">Enter</button>
+                    <button id="Z">Z</button>
+                    <button id="X">X</button>
+                    <button id="C">C</button>
+                    <button id="V">V</button>
+                    <button id="B">B</button>
+                    <button id="N">N</button>
+                    <button id="M">M</button>
+                    <button class="bkspc"><i class="fas fa-backspace"></i></button>
+                </div>
+                <div class="Restart">
+                    <input type="button" id="btn" value="Restart Game">
+                </div>
+
+            </div>
         </div>
     </div>
     <script src="2script.js"></script>
-    
+
 </body>
+
 </html>
