@@ -2494,7 +2494,7 @@ const wordList = [
 ];
 const wordtoday =
   wordList[Math.floor(Math.random() * wordList.length)].toUpperCase();
-console.log(wordtoday);
+
 buttons.forEach((button) => {
   button.addEventListener("click", function () {
     keypress(button.innerText);
