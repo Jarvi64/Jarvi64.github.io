@@ -2621,7 +2621,7 @@ function keypress(key) {
   if (gameEnded) return;
   if (key === "Enter") {
     Enter();
-  } else if (key === ".") {
+  } else if (key === "") {
     Delete();
   } else {
     makeword(key);
