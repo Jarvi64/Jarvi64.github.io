@@ -28,6 +28,24 @@ p{
     font-family: 'Libre Franklin', sans-serif;
     font-size: 20px;
 }
+.btn{
+    color:aliceblue;
+    width:200px;
+    height:30px;
+}
+#btn{
+    display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #535a53;
+  color: white;
+}
+#btn:hover {
+    background-color: #3b403b;
+  }
 .game{
     width:100%;
 }
