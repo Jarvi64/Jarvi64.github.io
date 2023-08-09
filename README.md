@@ -2,9 +2,10 @@
 
 A simple clone of the popular word-guessing game Wordle, implemented using Javascript.
 
-![Wordle Clone Screenshot](screenshot.png)
+![Wordle Clone Screenshot](https://github.com/Jarvi64/worddle_clone/assets/129019096/5fed6ccd-9563-44db-bb24-792928258d92)
 
-## Table of Contents
+## Table of Contents!
+
 - [Introduction](#introduction)
 - [Features](#features)
 
