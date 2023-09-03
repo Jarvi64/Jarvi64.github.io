@@ -25,8 +25,8 @@ Wordle Clone is a recreation of the classic word-guessing game Wordle. Test your
 For example, let's say the secret word is "UNITY" and you guess "THINK". The feedback might look like this:
 
 - "T" - **Yellow** (Correct letter, but in the wrong position)
-- "H" - **Grey** (Correct letter in the correct position)
-- "I" - **Green** (Incorrect letter)
-- "N" - **Yellow** (Incorrect letter)
+- "H" - **Grey** (Incorrect letter)
+- "I" - **Green** (Correct letter in the correct position)
+- "N" - **Yellow** (Correct letter, but in the wrong position)
 - "K" - **Grey** (Incorrect letter)
 
